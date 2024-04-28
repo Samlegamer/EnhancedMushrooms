@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/chiseled_bookshelf_inventory",
+  "textures": {
+    "front": "enhanced_mushrooms:block/chiseled_mushroom_bookshelf_empty",
+    "side": "enhanced_mushrooms:block/chiseled_mushroom_bookshelf_side",
+    "top": "enhanced_mushrooms:block/chiseled_mushroom_bookshelf_top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "enhanced_mushrooms:block/mushroom_planks",
+    "side": "enhanced_mushrooms:block/mushroom_planks",
+    "top": "enhanced_mushrooms:block/mushroom_planks"
+  }
+}

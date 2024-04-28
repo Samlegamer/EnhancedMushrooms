@@ -1,0 +1,6 @@
+{
+  "parent": "enhanced_mushrooms:block/chiseled_mushroom_bookshelf_slot_bottom_mid",
+  "textures": {
+    "texture": "enhanced_mushrooms:block/chiseled_mushroom_bookshelf_occupied"
+  }
+}
