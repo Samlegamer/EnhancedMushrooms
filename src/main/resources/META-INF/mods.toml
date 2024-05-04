@@ -9,7 +9,7 @@ version = "${mod_version}"
 displayName = "${mod_name}"
 authors = "Team Aurora"
 description = "${mod_description}"
-#logoFile="logo.png"
+logoFile="logo.png"
 
 [[dependencies.${mod_id}]]
 modId = "forge"
