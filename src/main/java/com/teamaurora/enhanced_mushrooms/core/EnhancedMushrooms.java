@@ -32,6 +32,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Map;
@@ -95,7 +96,7 @@ public class EnhancedMushrooms
     }
 
     @SubscribeEvent
-    public void buildCreativeModeTabContents(BuildCreativeModeTabContentsEvent event)
+    public void buildCreativeModeTabContents(@NotNull BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             MutableHashedLinkedMap<ItemStack, CreativeModeTab.TabVisibility> entries = event.getEntries();
